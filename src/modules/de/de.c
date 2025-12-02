@@ -20,7 +20,6 @@ bool ffPrintDE(FFDEOptions* options)
         {
             ffStrbufSetS((FFstrbuf*)&result->dePrettyName, "Sonic Desktop (XLibre)");
         }
-    }
     
     FF_STRBUF_AUTO_DESTROY version = ffStrbufCreate();
     ffDetectDEVersion(&result->dePrettyName, &version, options);
